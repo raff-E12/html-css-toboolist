@@ -13,13 +13,24 @@ body{
     flex-direction: column;
 }
 
-.container{
+.box-con{
+    background-color: #F2F2F2;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.container{
+    width: 70%;
     border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #ffffff;
 }
 
 .header{
@@ -29,6 +40,7 @@ body{
     justify-content: flex-start;
     gap: 10px;
     padding: 19px;
+    background-color: #ffffff;
 }
 
 h1{
@@ -37,4 +49,9 @@ h1{
     font-weight: 576;
     font-style: normal;
     font-size: 2em;
+}
+
+.task-list, .add-buttons{
+    background-color: #ffffff;
+    width: 100%;
 }
