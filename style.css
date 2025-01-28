@@ -24,13 +24,14 @@ body{
 }
 
 .container{
-    width: 70%;
-    border: 1px solid red;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 40px;
     background-color: #ffffff;
+    border-radius: 10px;
 }
 
 .header{
@@ -54,4 +55,27 @@ h1{
 .task-list, .add-buttons{
     background-color: #ffffff;
     width: 100%;
+}
+
+.add-buttons{
+    border: 1px solid red;
+    padding: 6px;
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    gap: 10px;
+}
+
+.add-buttons button{
+    padding: 7px;
+    border-radius: 9px;
+    background-color: transparent;
+    color: #adadad;
+    border: 1px solid #adadad;
+}
+
+#press-btn{
+    color: #ffffff;
+    background-color:#4BC3F2;
+    border: none;
 }
