@@ -79,3 +79,38 @@ h1{
     background-color:#4BC3F2;
     border: none;
 }
+
+.task-list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section{
+    border: 1px solid red;
+    width: 100%;
+}
+
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.arrow-box{
+    width: 6%;
+    padding: 2px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title{
+    font-size: 1.34em;
+    font-weight: 900;
+}
