@@ -114,3 +114,40 @@ h1{
     font-size: 1.34em;
     font-weight: 900;
 }
+
+.task-title{
+    display: flex;   
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.box-true{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #65C0A9;
+    border-radius: 20px;
+    color: #65C0A9;
+}
+
+.box-false{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #EB5A53;
+    border-radius: 20px;
+    color: #EB5A53;
+}
