@@ -58,12 +58,12 @@ h1{
 }
 
 .add-buttons{
-    border: 1px solid red;
     padding: 6px;
     display: flex;
     align-items: flex-start;
     justify-items: center;
     gap: 10px;
+    border-bottom: 1px solid #adadad;
 }
 
 .add-buttons button{
@@ -89,7 +89,6 @@ h1{
 }
 
 .section{
-    border: 1px solid red;
     width: 100%;
 }
 
@@ -104,7 +103,6 @@ h1{
 .arrow-box{
     width: 6%;
     padding: 2px;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,7 +114,12 @@ h1{
 }
 
 .task-title{
-    display: flex;   
+    display: flex;  
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
 .task{
@@ -126,6 +129,7 @@ h1{
     padding: 10px;
     flex-direction: row;
     gap: 10px;
+    width: 100%;
 }
 
 .box-true{
@@ -150,4 +154,52 @@ h1{
     border: 2px solid #EB5A53;
     border-radius: 20px;
     color: #EB5A53;
+}
+
+.task-tag-0, .task-tag-1, .task-tag-7{
+    padding: 8px;
+    font-size: 0.80em;
+    border-radius: 20px;
+    background-color: #4BC3F2;
+    color: #ffffff;
+}
+
+.task-tag-2{
+    padding: 8px;
+    font-size: 0.80em;
+    border-radius: 20px;
+    background-color: #9271D9;
+    color: #ffffff;
+}
+
+.task-tag-3{
+    padding: 8px;
+    font-size: 0.80em;
+    border-radius: 20px;
+    background-color: #64C0A9;
+    color: #ffffff;
+}
+
+.task-tag-4{
+    padding: 8px;
+    font-size: 0.80em;
+    border-radius: 20px;
+    background-color: #F28D35;
+    color: #ffffff;
+}
+
+.task-tag-5{
+    padding: 8px;
+    font-size: 0.80em;
+    border-radius: 20px;
+    background-color: #D863A1;
+    color: #ffffff;
+}
+
+.task-tag-6{
+    padding: 8px;
+    font-size: 0.80em;
+    border-radius: 20px;
+    background-color: #B0C926;
+    color: #ffffff;
 }
